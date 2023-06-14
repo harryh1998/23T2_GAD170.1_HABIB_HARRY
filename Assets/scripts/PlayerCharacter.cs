@@ -8,6 +8,10 @@ public class PlayerCharacter : MonoBehaviour
     [SerializeField] private int health = 100;
     [SerializeField] private int level = 1;
 
+    
+    
+
+
 
 
     //Method will go underneath here
@@ -15,7 +19,7 @@ public class PlayerCharacter : MonoBehaviour
 
 
     // Start is called before the first frame update
-    void Start()
+     private void Start()
     {
         attack = 10;
         health = 100;
@@ -24,7 +28,7 @@ public class PlayerCharacter : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+  private  void Update()
     {
         
     }
