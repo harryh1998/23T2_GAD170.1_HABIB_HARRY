@@ -217,7 +217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1332156064}
   - component: {fileID: 1332156063}
-  - component: {fileID: 1332156062}
+  - component: {fileID: 1332156065}
   m_Layer: 0
   m_Name: player character
   m_TagString: Untagged
@@ -225,21 +225,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1332156062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1332156061}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bf9384476f2ca04e9417fcf6dc7d6ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attack: 10
-  health: 100
-  level: 1
 --- !u!212 &1332156063
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -307,6 +292,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1332156065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332156061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b6618ef9258ef4cac4fa690019c1f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAttack: 10
+  playerHealth: 100
+  playerLevel: 1
+  enemyAttack: 20
 --- !u!1 &2017513967
 GameObject:
   m_ObjectHideFlags: 0
